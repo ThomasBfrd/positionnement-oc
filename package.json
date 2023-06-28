@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ThomasBfrd.github.io/positionnement-oc",
   "name": "positionnement-oc",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "sass --watch ./src/styles/scss:./src/styles/css --no-source-map"
+    "sass": "sass --watch ./src/styles/scss:./src/styles/css --no-source-map",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +45,8 @@
   "description": "Un projet crée dans le cadre du test de positionnement pour la formation JS React chez OpenClassrooms",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
