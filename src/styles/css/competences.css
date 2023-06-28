@@ -1,0 +1,28 @@
+.competences {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: #d5d5d5;
+}
+.competences__list {
+  display: flex;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+.competences__logo {
+  display: inline;
+  margin: auto;
+  font-size: 4rem;
+  transition: color 0.15s ease-in;
+}
+.competences__logo:hover {
+  color: #689775;
+}

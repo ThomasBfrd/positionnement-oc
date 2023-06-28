@@ -1,0 +1,34 @@
+$bk : #1f1f1f;
+$primary : #d5d5d5;
+$secondary : #689775;
+$tertiary : #c7493a;
+
+
+.competences {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    color: $primary;
+    &__list {
+        display: flex;
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+    }
+    &__logo {
+        display: inline;
+        margin: auto;
+        font-size: 4rem;
+        transition: color 0.15s ease-in;
+        &:hover {
+            color: $secondary;
+        }
+    }
+}

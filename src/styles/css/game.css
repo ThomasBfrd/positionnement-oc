@@ -1,0 +1,155 @@
+.main__game {
+  position: relative;
+  min-height: 700px;
+  width: 70vw;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  margin: 1rem 0;
+}
+
+.rules {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-top: 0px;
+}
+.rules__p {
+  margin: 0 auto;
+  width: 65%;
+  word-spacing: 0.1rem;
+  line-height: 1rem;
+  word-wrap: balance;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 0.75s;
+  margin: 0 auto;
+  margin-top: -8rem;
+}
+
+/* ELEMENTS */
+.name {
+  position: relative;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 0.3rem;
+}
+
+.score {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #c7365f;
+}
+
+.player--active .name {
+  font-weight: 700;
+}
+
+.player--active .score {
+  font-weight: 400;
+}
+
+.player--active .current {
+  opacity: 1;
+}
+
+.current {
+  background-color: #c7365f;
+  opacity: 0.8;
+  border-radius: 9px;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.75s;
+}
+
+.current-label {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.current-score {
+  font-size: 1.5rem;
+}
+
+/* ABSOLUTE POSITIONED ELEMENTS */
+.btn {
+  color: #444;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 1.5rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.btn-display {
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%);
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.btn:active {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.dice {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  height: 4.5rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+
+.player--winner {
+  background-color: #2f2f2f;
+}
+
+.player--winner .name {
+  font-weight: 700;
+  color: #c7365f;
+}
+
+.hidden {
+  display: none;
+}
+
+.result {
+  position: absolute;
+  top: 38%;
+  color: #d5d5d5;
+  font-weight: 800;
+}
