@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<br/>
+<p align="center">
+  <h3 align="center">Test de positionnement pour la formation de développement web Javascript React</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    Un petit projet crée dans le but de montrer les compétences acquises en autonomie. Ce projet a également été présenté en vidéo.
+    <br/>
+    <br/>
+    <a href="https://github.com/ThomasBfrd/positionnement-oc">View Demo</a>
+  </p>
+</p>
 
-## Available Scripts
+![Downloads](https://img.shields.io/github/downloads/ThomasBfrd/positionnement-oc/total) ![Contributors](https://img.shields.io/github/contributors/ThomasBfrd/positionnement-oc?color=dark-green) ![Issues](https://img.shields.io/github/issues/ThomasBfrd/positionnement-oc) 
 
-In the project directory, you can run:
+## About The Project
 
-### `npm start`
+![Screen Shot](https://i.postimg.cc/fbHYt3Yb/projet-oc.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Un projet visant à montrer ma position dans le développement web, pour rejoindre la formation de développement web Javascript React chez OpenClassrooms.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ce projet est une sorte de site vitrine, avec un accueil, suivi d'une section de compétences, et pour finir, un petit jeu de dé.
 
-### `npm test`
+Concernant le jeu de dé, il s'agit d'un exercice Javascript Vanilla que j'ai pu réaliser il y a quelques jours, et je me suis mis au défi de le reproduire sur React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Les règles sont simples : 
+Deux joueurs s'affrontent pour un lancé de dé (la face est générée aléatoirement). A tour de rôle, chaque joueur peut lancer une ou plusieurs fois sont dé. Tant qu'un des joueurs ne tombe pas sur la face "1" du dé, il peut continuer de lancer son dé et donc cumuler les points.
+Il peut également maintenir ses points pour les transférer dans son score total, afin de passer son tour et sécuriser ses points.
 
-### `npm run build`
+Si un des joueurs tombe sur la face "1", il passe son tour et il perd alors les points cumulés sur son tour de lancé(s).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Le but du jeu étant d'atteindre le score total de 50. Si un des joueurs atteint le score de 50 (ou plus), le joueur en question a gagné la partie.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Le site a intégralement été codé avec React, puis build et déployé sur GitHub.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built With
 
-### `npm run eject`
+* [React](https://react.dev/)
+* [SCSS](https://sass-lang.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
+puis npm start
 
-## Learn More
+### Creating A Pull Request
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Authors
 
-### Code Splitting
+* **Thomas Bouffard** - *Futur développeur web* - [Thomas Bouffard](https://github.com/thomasBfrd)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgements
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [Thomas Bouffard](https://github.com/thomasBfrd)
